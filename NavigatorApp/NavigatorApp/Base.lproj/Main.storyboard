@@ -279,6 +279,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="zY7-kf-XIv"/>
                     <connections>
+                        <outlet property="Address" destination="wfM-UT-MNL" id="kPY-cp-Yr0"/>
+                        <outlet property="City" destination="Fh5-ff-6Kz" id="JLR-cW-kQa"/>
+                        <outlet property="Country" destination="iPb-HD-Gbl" id="O8C-I9-6A0"/>
+                        <outlet property="Postalcode" destination="JiP-zj-2jL" id="n3j-F1-yDc"/>
+                        <outlet property="Submit" destination="Smp-9U-eHt" id="1vv-Mw-9VI"/>
                         <outlet property="emailId" destination="v0L-KT-Bm0" id="wxz-nx-EoB"/>
                         <outlet property="firstName" destination="ePN-bZ-LVx" id="yhh-G1-UDI"/>
                         <outlet property="lastName" destination="wYG-rP-Pb5" id="Td1-m7-Sqp"/>
