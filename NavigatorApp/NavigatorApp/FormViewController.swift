@@ -12,6 +12,12 @@ class FormViewController: UIViewController {
     @IBOutlet var firstName: UITextField!
     @IBOutlet var lastName: UITextField!
     @IBOutlet var emailId: UITextField!
+    @IBOutlet var Address: UITextField!
+    @IBOutlet var country: UITextField!
+    @IBOutlet var city: UITextField!
+    @IBOutlet var postalcode: UITextField!
+    @IBOutlet var submit: UIButton!
+    @IBOutlet var imageview: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +28,11 @@ class FormViewController: UIViewController {
         destVC.fName = firstName.text!
         destVC.lName = lastName.text!
         destVC.emId = emailId.text!
+        destVC.Add = Address.text!
+        destVC.cntry = country .text!
+        destVC.ct = city.text!
+        destVC.pcode = postalcode.text!
+        
     }
     
 

@@ -181,9 +181,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="kbg-7c-AHz"/>
                     <connections>
+                        <outlet property="Address" destination="1Nc-yE-GuU" id="RSy-Wj-0Mt"/>
+                        <outlet property="city" destination="z6e-2v-Ss3" id="b4x-b5-ZFw"/>
+                        <outlet property="country" destination="jE8-qD-RL0" id="JU0-oF-88y"/>
                         <outlet property="emailId" destination="nSe-XQ-HgB" id="IYX-Bl-0ry"/>
                         <outlet property="firstName" destination="HXA-ee-o6X" id="CZJ-5e-fij"/>
+                        <outlet property="imageview" destination="Fwp-aa-iqD" id="lmh-2G-Zy5"/>
                         <outlet property="lastName" destination="BwW-gO-0zw" id="qBf-8u-YLj"/>
+                        <outlet property="postalcode" destination="a2h-da-JKO" id="Emd-co-2wc"/>
+                        <outlet property="submit" destination="Sxw-dy-3BL" id="NLQ-s1-qQw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7CK-fz-eIq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
