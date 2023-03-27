@@ -306,6 +306,12 @@
                     <view key="view" contentMode="scaleToFill" id="yF6-hl-qZF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="myimage" translatesAutoresizingMaskIntoConstraints="NO" id="bIu-4l-QRP">
+                                <rect key="frame" x="54" y="334" width="307" height="228"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="LXF-42-2kn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -313,10 +319,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akD-nT-MWI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2025" y="631"/>
+            <point key="canvasLocation" x="2024.6376811594205" y="630.80357142857144"/>
         </scene>
     </scenes>
     <resources>
+        <image name="myimage" width="320" height="568"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
