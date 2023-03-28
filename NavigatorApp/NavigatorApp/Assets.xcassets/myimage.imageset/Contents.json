@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Simulator Screen Shot - iPod touch (7th generation) - 2023-03-21 at 11.54.26.png",
+      "filename" : "img1.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Simulator Screen Shot - iPod touch (7th generation) - 2023-03-21 at 11.54.26-1.png",
+      "filename" : "img1-1.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Simulator Screen Shot - iPod touch (7th generation) - 2023-03-21 at 11.54.26-2.png",
+      "filename" : "img1-2.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }
